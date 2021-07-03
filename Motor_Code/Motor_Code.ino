@@ -38,14 +38,4 @@ void loop() {
   analogWrite(6, motorSpeed.toInt());.
   digitalWrite(7, LOW);
   digitalWrite(8, HIGH);
-
-  /*for (int i = 80; i <= 180; i++){
-    myservo.write(i);
-    delay(10);
-  }
-
-  for (int i = 180; i >= 80; i--){
-    myservo.write(i);
-    delay(10);
-  }*/
 }
